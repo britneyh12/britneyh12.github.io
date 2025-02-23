@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ProjectTwoBH.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item> <!-- Primary color -->
+        <item name="colorOnPrimary">@color/colorOnPrimaryDark</item> <!-- Text color on primary color -->
+        <item name="colorOnBackground">@color/colorBackgroundDark</item> <!-- Background color -->
+        <item name="colorSurface">@color/colorSurfaceDark</item> <!-- Surface color for cards, etc. -->
+        <item name="colorOnSurface">@color/colorOnSurfaceDark</item> <!-- Text color on surface elements -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantDark</item> <!-- Darker shade of primary color -->
+        <item name="colorSecondary">@color/colorSecondaryDark</item> <!-- Secondary color -->
+        <item name="colorOnSecondary">@color/colorOnSecondaryDark</item> <!-- Text color on secondary elements -->
+    </style>
+</resources>

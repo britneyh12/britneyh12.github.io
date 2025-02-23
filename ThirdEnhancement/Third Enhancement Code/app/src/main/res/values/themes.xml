@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Theme -->
+    <style name="Base.Theme.ProjectTwoBH.Light" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryLight</item>
+
+        <!-- Background Colors -->
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/colorOnBackgroundLight</item>
+        <item name="android:textColorSecondary">@color/colorOnSurfaceLight</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/colorSurfaceLight</item>
+        <item name="colorOnSurface">@color/colorOnSurfaceLight</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantLight</item>
+        <item name="colorSecondary">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryLight</item>
+
+        <!-- Toolbar and Action Bar Colors -->
+        <item name="actionBarStyle">@style/Theme.ProjectTwoBH.AppBarOverlay</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariantLight</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- Main Theme -->
+    <style name="Theme.ProjectTwoBH" parent="Base.Theme.ProjectTwoBH.Light" />
+
+    <!-- Action Bar Theme -->
+    <style name="Theme.ProjectTwoBH.AppBarOverlay" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryLight</item>
+    </style>
+
+    <!-- Popup Theme -->
+    <style name="Theme.ProjectTwoBH.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+</resources>

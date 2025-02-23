@@ -1,0 +1,75 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.projecttwobh.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_authentication">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.projecttwobh.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_homeFragment_to_inventoryFragment"
+            app:destination="@id/inventoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_adjustmentsFragment"
+            app:destination="@id/adjustmentsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <!-- Inventory Fragment -->
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.example.projecttwobh.ui.database.DatabaseFragment"
+        android:label="Inventory"
+        tools:layout="@layout/fragment_database">
+        <action
+            android:id="@+id/action_inventoryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_inventoryFragment_to_adjustmentsFragment"
+            app:destination="@id/adjustmentsFragment" />
+    </fragment>
+
+    <!-- Adjustments Fragment -->
+    <fragment
+        android:id="@+id/adjustmentsFragment"
+        android:name="com.example.projecttwobh.ui.adjustments.AdjustmentsFragment"
+        android:label="Adjustments"
+        tools:layout="@layout/fragment_adjustments">
+        <action
+            android:id="@+id/action_adjustmentsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.projecttwobh.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+
+</navigation>

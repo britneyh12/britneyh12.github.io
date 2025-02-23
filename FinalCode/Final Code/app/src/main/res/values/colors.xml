@@ -1,0 +1,24 @@
+<resources>
+    <color name="colorPrimaryLight">#6200EE</color> <!-- Light primary color -->
+    <color name="colorOnPrimaryLight">#FFFFFF</color> <!-- Light text on primary color -->
+    <color name="colorBackgroundLight">#FFFFFF</color> <!-- Light background color -->
+    <color name="colorOnBackgroundLight">#000000</color> <!-- Text color on background -->
+    <color name="colorSurfaceLight">#B5FDF4</color> <!-- Light surface color -->
+    <color name="colorOnSurfaceLight">#000000</color> <!-- Dark text on light surfaces -->
+    <color name="colorPrimaryVariantLight">#3700B3</color> <!-- Darker primary color -->
+    <color name="colorSecondaryLight">#03DAC6</color> <!-- Light secondary color -->
+    <color name="colorOnSecondaryLight">#000000</color> <!-- Text on secondary elements -->
+
+
+<!-- dark mode -->
+
+<color name="colorPrimaryDark">#BB86FC</color> <!-- Dark primary color -->
+<color name="colorOnPrimaryDark">#404142</color> <!-- Dark text on primary color -->
+<color name="colorBackgroundDark">#3B3C3E</color> <!-- Dark background color -->
+<color name="colorOnBackgroundDark">#FFFFFF</color> <!-- Text on background -->
+<color name="colorSurfaceDark">#707275</color> <!-- Dark surface color -->
+<color name="colorOnSurfaceDark">#FFFFFF</color> <!-- Light text on dark surfaces -->
+<color name="colorPrimaryVariantDark">#3700B3</color> <!-- Darker primary color -->
+<color name="colorSecondaryDark">#009688</color> <!-- Dark secondary color -->
+<color name="colorOnSecondaryDark">#FFFFFF</color> <!-- Text on secondary elements -->
+</resources>

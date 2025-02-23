@@ -1,0 +1,11 @@
+<resources>
+    <color name="colorPrimaryDark">#BB86FC</color> <!-- Dark primary color -->
+    <color name="colorOnPrimaryDark">#404142</color> <!-- Dark text on primary color -->
+    <color name="colorBackgroundDark">#3B3C3E</color> <!-- Dark background color -->
+    <color name="colorOnBackgroundDark">#FFFFFF</color> <!-- Text on background -->
+    <color name="colorSurfaceDark">#707275</color> <!-- Dark surface color -->
+    <color name="colorOnSurfaceDark">#FFFFFF</color> <!-- Light text on dark surfaces -->
+    <color name="colorPrimaryVariantDark">#3700B3</color> <!-- Darker primary color -->
+    <color name="colorSecondaryDark">#009688</color> <!-- Dark secondary color -->
+    <color name="colorOnSecondaryDark">#FFFFFF</color> <!-- Text on secondary elements -->
+</resources>

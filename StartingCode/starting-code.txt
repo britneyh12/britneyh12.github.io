@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starting Code</title>
+  <style>
+    body {
+      font-family: Georgia, sans-serif;
+      margin: 0;
+      padding: 1em;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    main {
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Starting Code</h1>
+  </header>
+  <main>
+    <p>This page contains the starting code for the project. Add your initial code snippets or links to the code repository here.</p>
+    <!-- Insert code or further instructions as needed -->
+  </main>
+</body>
+</html>

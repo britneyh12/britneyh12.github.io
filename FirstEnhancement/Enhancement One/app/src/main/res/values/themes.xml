@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ProjectTwoBH.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLight</item> <!-- Primary color -->
+        <item name="colorOnPrimary">@color/colorOnPrimaryLight</item> <!-- Text color on primary color -->
+        <item name="colorOnBackground">@color/colorBackgroundLight</item> <!-- Background color -->
+        <item name="colorSurface">@color/colorSurfaceLight</item> <!-- Surface color for cards, etc. -->
+        <item name="colorOnSurface">@color/colorOnSurfaceLight</item> <!-- Text color on surface elements -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantLight</item> <!-- Darker shade of primary color -->
+        <item name="colorSecondary">@color/colorSecondaryLight</item> <!-- Secondary color -->
+        <item name="colorOnSecondary">@color/colorOnSecondaryLight</item> <!-- Text color on secondary elements -->
+    </style>
+
+    <style name="Theme.ProjectTwoBH" parent="Base.Theme.ProjectTwoBH.Light" />
+
+    <style name="Theme.ProjectTwoBH.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ProjectTwoBH.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ProjectTwoBH.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
